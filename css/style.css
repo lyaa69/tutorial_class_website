@@ -1,0 +1,38 @@
+body
+{
+	background-color: lightgoldenrodyellow;
+}
+h1
+{
+	color: blue;
+	background-color: indianred;
+	border: 3px dotted lightyellow;
+	font-family: Verdana;
+}
+h3
+{
+	color: darkcyan;
+	background-color: lightcyan;
+	font-family: Papyrus;
+	text-align: center;
+}
+p
+{
+	color: deeppink;
+	text-align: right;
+}
+table, tr, td, th
+{
+	border: 3px solid lavender;
+	border-collapse: collapse;
+}
+th
+{
+	background-color: blanchedalmond;
+	color: floralwhite;
+
+}
+tr:hover
+{
+	background-color: dimgrey;
+}
