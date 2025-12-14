@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Javascripts</title>
+</head>
+<body>
+
+<iframe src="https://free.timeanddate.com/clock/ia6skae4/n122/bas2/bat2/tt0/tw1/tm2/td1/th2/ta1/tb4" frameborder="0" width="150" height="50"></iframe>
+
+	<h2>Javascript change the content</h2>
+	<p id="java1">This is my fisrt content of Javascript</p>
+	<button type="button" onclick='document.getElementById("java1").innerHTML="Another content of Javascript"'>Change Content</button>
+
+	<h2>Javascript change style</h2>
+	<p id="jv1">Javascript change the style of this content</p>
+	<script>
+		function myStyle()
+		{
+			document.getElementById("jv1").style.fontSize="40px";
+			document.getElementById("jv1").style.color="skyblue";
+			document.getElementById("jv1").style.backgroundColor="darkblue";
+			document.getElementById("jv1").style.fontFamily="Lucida";
+		}
+	</script>
+
+	<button type="button" onclick="myStyle()">Click here</button>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508108.25269168144!2d101.91398103732115!3d5.771160237078232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b68fe6f50d123f%3A0xaeb67217536d6442!2sUiTM%20Machang!5e0!3m2!1sen!2smy!4v1765072465695!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+	<h2>Javascript do image manipulation</h2>
+
+	<script>
+		function view(a)
+		{
+			var pic;
+			if (a==2)
+			{
+				pic="image/mount.jpg"
+			}
+			else
+			{
+				pic="image/flowers.jpg"
+			}
+			document.getElementById('gambar').src=pic;
+		}
+	</script>
+
+	<img src="image/mount.jpg" width="150" height="120" id="gambar">
+	<p>
+		<button type="button" onclick="view(1)">Tap here</button>
+		<button type="button" onclick="view(2)">Back</button>
+	</p>
+
+	<h2>Alert Box @ Popup Window</h2>
+
+	<script>
+		{
+			alert("Assalamualaikum, \n Selamat datang ke Website Saya. \n Enjoy browsing my page.")
+		}
+	</script>
+
+</body>
+</html>
